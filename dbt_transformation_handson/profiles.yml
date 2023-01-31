@@ -1,0 +1,13 @@
+dbt_transformation_handson:
+  outputs:
+    prod:
+      dbname: my_new_database
+      host: 10.168.158.18
+      pass: mypassword
+      port: 3030
+      schema: public
+      threads: 8
+      type: postgres
+      user: myusername
+  target: prod
+
