@@ -1,21 +1,25 @@
 
 version: 2
+sources:
+  - name: my_new_database
+    description: A replica of the mysql database.
+    tables:
+      - name: company
+        columns:
+          - name: EMP_ID
+            description: Primary key of the table
+            tests:
+              - unique
+              - not_null
 
 models:
-  - name: my_first_dbt_model
-    description: "A starter dbt model"
-    columns:
-      - name: id
-        description: "The primary key for this table"
-        tests:
-          - unique
-          - not_null
 
-  - name: my_second_dbt_model
-    description: "A starter dbt model"
+  - name:company
+    config:
+      materialized: view
     columns:
-      - name: id
-        description: "The primary key for this table"
+      - name: EMP_ID
+	description: Primary key of the table
         tests:
           - unique
           - not_null
