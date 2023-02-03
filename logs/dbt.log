@@ -189,3 +189,20 @@ Parsing Error
     ------------------------------
     mapping values are not allowed in this context
       in "<unicode string>", line 17, column 11
+
+
+============================== 2023-02-02 12:00:11.397880 | 45218951-70e1-444c-88dd-63bfcb0531cb ==============================
+[0m12:00:11.397880 [info ] [MainThread]: Running with dbt=1.4.1
+[0m12:00:11.399747 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 120, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/root/.dbt', 'send_anonymous_usage_stats': False, 'quiet': False, 'no_print': False, 'cache_selected_only': False, 'project_dir': '/root/models', 'config_dir': False, 'which': 'debug', 'indirect_selection': 'eager'}
+[0m12:00:11.399989 [debug] [MainThread]: Tracking: do not track
+[0m12:00:11.487195 [debug] [MainThread]: Executing "git --help"
+[0m12:00:11.495785 [debug] [MainThread]: STDOUT: "b"usage: git [--version] [--help] [-c name=value]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p|--paginate|--no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           <command> [<args>]\n\nThe most commonly used git commands are:\n   add        Add file contents to the index\n   bisect     Find by binary search the change that introduced a bug\n   branch     List, create, or delete branches\n   checkout   Checkout a branch or paths to the working tree\n   clone      Clone a repository into a new directory\n   commit     Record changes to the repository\n   diff       Show changes between commits, commit and working tree, etc\n   fetch      Download objects and refs from another repository\n   grep       Print lines matching a pattern\n   init       Create an empty Git repository or reinitialize an existing one\n   log        Show commit logs\n   merge      Join two or more development histories together\n   mv         Move or rename a file, a directory, or a symlink\n   pull       Fetch from and merge with another repository or a local branch\n   push       Update remote refs along with associated objects\n   rebase     Forward-port local commits to the updated upstream head\n   reset      Reset current HEAD to the specified state\n   rm         Remove files from the working tree and from the index\n   show       Show various types of objects\n   status     Show the working tree status\n   tag        Create, list, delete or verify a tag object signed with GPG\n\n'git help -a' and 'git help -g' lists available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\n""
+[0m12:00:11.496029 [debug] [MainThread]: STDERR: "b''"
+[0m12:00:11.500503 [debug] [MainThread]: Acquiring new postgres connection 'debug'
+[0m12:00:11.500786 [debug] [MainThread]: Using postgres connection "debug"
+[0m12:00:11.501024 [debug] [MainThread]: On debug: select 1 as id
+[0m12:00:11.501231 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m12:00:11.513129 [debug] [MainThread]: SQL status: SELECT 1 in 0 seconds
+[0m12:00:11.514939 [debug] [MainThread]: On debug: Close
+[0m12:00:11.515301 [debug] [MainThread]: Flushing usage events
+[0m12:00:11.515546 [debug] [MainThread]: Connection 'debug' was properly closed.
