@@ -1,1 +1,0 @@
-{"ssl":false,"host":"10.168.158.18","port":3030,"schema":"public","database":"my_new_database","password":"mypassword","ssl_mode":{"mode":"disable"},"username":"myusername","tunnel_method":{"tunnel_method":"NO_TUNNEL"}}
